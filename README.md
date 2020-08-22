@@ -178,7 +178,7 @@ export default App;
 |**autofocus**|boolean|NO|true|Autofocus or not the user input|
 |**launcher**|(handleToggle) => ElementType|NO||Custom Launcher component to use instead of the default|
 |**handleQuickButtonClicked**|(...args: any[]) => any|NO||Function to handle the user clicking a quick button, will receive the 'value' when clicked.|
-|**autoAddUserMessage**|PropTypes.bool|NO|true|Enable or disable the widget automatically displaying the user messages.|
+|**autoAddUserMessage**|boolean|NO|true|Enable or disable the widget automatically displaying the user messages.|
 |**showTimeStamp**|boolean|NO|true|Show time stamp on messages|
 |**chatId**|string|NO|'rcw-chat-container'|Chat container id for a11y|
 |**launcherOpenLabel**|string|NO|'Open chat'|Alt value for the laucher when closed|
